@@ -1,0 +1,30 @@
+.container {
+  width: 1104px;
+  height: 650px;
+  flex-direction: column;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.menu__list {
+  display: flex;
+}
+
+.menu__item {
+  padding-left: 20px;
+  padding-right: 30px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+
+

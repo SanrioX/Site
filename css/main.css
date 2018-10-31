@@ -1,0 +1,117 @@
+
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'ubuntumedium','ubunturegular','ubuntulight','ubuntubold','lifehackmedium','gagalinregular';
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.burgers {
+  background: url(../Image/video-bg.png) no-repeat center / cover;
+  height: 100vh;
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-size: cover;
+  opacity: 100%;
+}
+
+.header {
+  font-family: 'ubuntumedium';
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  width: 970px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo__img {
+  margin-top: 10px;
+}
+
+.menu {
+  width: 670px;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: "ubuntumedium";
+
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  font-family: 'ubuntumedium';
+  font-weight: normal;
+}
+
+.button {
+  background: #e45028;
+  width: 97px;
+  height: 35px;
+  margin-top: 19px;
+  margin-right: 83px;
+  border-radius: 10%;
+  text-transform: uppercase;
+  
+}
+
+.main__content {
+  color: #fff;
+  margin: 0;
+}
+
+.main__banner {
+  width: 820px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.main__paragraph {
+  font-family: 'lifehackmedium';
+  font-weight: normal;
+  font-size: 65px;
+  margin: 0;
+  margin-top: 90px;
+}
+
+.main__text {
+  font-size: 71px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.sidebar {
+  color: #fff;
+  margin-right: 50px;
+  margin-bottom: 300px;
+
+}
+
+
+.arrow {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow__scrol {
+  width: 29px;
+  height: 14px;
+  margin-bottom: 35px;
+}
